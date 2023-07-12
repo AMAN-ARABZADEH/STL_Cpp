@@ -15,9 +15,17 @@ Containers are collections of objects or primitive types. The following containe
 - `std::deque`: A double-ended queue that allows efficient insertion and deletion at both ends, but random access is slower compared to `std::vector`.
 - `std::set`: A container that stores unique elements in sorted order and allows efficient insertion, deletion, and searching based on keys.
 - `std::map`: A container that stores key-value pairs in sorted order of keys and allows efficient insertion, deletion, and searching based on keys.
+- `std::multiset`: A container that stores multiple occurrences of elements in sorted order.
+- `std::multimap`: A container that stores multiple key-value pairs in sorted order of keys.
 - `std::stack`: A Last-In-First-Out (LIFO) data structure that allows insertion and deletion at the top.
 - `std::queue`: A First-In-First-Out (FIFO) data structure that allows insertion at the back and deletion at the front.
+- `std::priority_queue`: A container that provides retrieval of elements based on priority, with the highest priority element always at the front.
 - `std::forward_list`: A singly linked list that allows efficient insertion and deletion at any position, but no backward traversal is possible.
+- `std::array`: A fixed-size container with a known size at compile time.
+- `std::unordered_set`: A container that stores unique elements in any order and provides efficient insertion, deletion, and searching based on keys.
+- `std::unordered_map`: A container that stores key-value pairs in any order and provides efficient insertion, deletion, and searching based on keys.
+- `std::unordered_multiset`: A container that stores multiple occurrences of elements in any order and provides efficient insertion, deletion, and searching based on keys.
+- `std::unordered_multimap`: A container that stores multiple key-value pairs in any order and provides efficient insertion, deletion, and searching based on keys.
 
 ### Algorithms
 
@@ -46,7 +54,6 @@ Iterators are generalized pointers that provide a way to traverse and access ele
 
 To run the code examples, you need a C++ compiler that supports C++11 or later. Simply copy the code into a C++ source file (e.g., `main.cpp`), compile, and run.
 
-
 Feel free to explore the code and modify it to experiment with different containers, algorithms, and iterators.
 
 ## Further Reading
@@ -59,8 +66,6 @@ For more information on the STL, containers, algorithms, and iterators, you can 
 
 Happy coding!
 
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
